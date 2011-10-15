@@ -1,9 +1,9 @@
 #import <Cocoa/Cocoa.h>
 
 @interface MGAppDelegate : NSObject <NSApplicationDelegate> {
-    NSImageView *imageView;
-    NSURL       *sourceImageURL;
-    NSMutableArray     *generatorImageURLs;    
+    NSImageView      *imageView;
+    NSURL            *sourceImageURL;
+    NSMutableArray   *generatorImageURLs;    
 }
 
 @property (assign) IBOutlet NSWindow *window;
@@ -16,5 +16,6 @@
 
 -(IBAction) pickSourceImage:(id)sender;
 -(IBAction) pickImages:(id)sender;
+-(IBAction) generateTargetImage:(id)sender;
 
 @end

@@ -17,6 +17,10 @@
 		202F160B144976B000405A9F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202F15EB144976AF00405A9F /* Cocoa.framework */; };
 		202F1613144976B000405A9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 202F1611144976B000405A9F /* InfoPlist.strings */; };
 		202F1616144976B000405A9F /* MosaicGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 202F1615144976B000405A9F /* MosaicGeneratorTests.m */; };
+		202F163D1449CFAF00405A9F /* MGEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 202F163C1449CFAF00405A9F /* MGEngine.m */; };
+		202F163E1449CFAF00405A9F /* MGEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 202F163C1449CFAF00405A9F /* MGEngine.m */; };
+		202F16401449E8CE00405A9F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202F163F1449E8CE00405A9F /* QuartzCore.framework */; };
+		202F16421449E8FE00405A9F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202F16411449E8FE00405A9F /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		202F1612144976B000405A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		202F1614144976B000405A9F /* MosaicGeneratorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MosaicGeneratorTests.h; sourceTree = "<group>"; };
 		202F1615144976B000405A9F /* MosaicGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MosaicGeneratorTests.m; sourceTree = "<group>"; };
+		202F163B1449CFAF00405A9F /* MGEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGEngine.h; sourceTree = "<group>"; };
+		202F163C1449CFAF00405A9F /* MGEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGEngine.m; sourceTree = "<group>"; };
+		202F163F1449E8CE00405A9F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		202F16411449E8FE00405A9F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				202F16421449E8FE00405A9F /* OpenGL.framework in Frameworks */,
+				202F16401449E8CE00405A9F /* QuartzCore.framework in Frameworks */,
 				202F15EC144976AF00405A9F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +85,8 @@
 		202F15DC144976AF00405A9F = {
 			isa = PBXGroup;
 			children = (
+				202F16411449E8FE00405A9F /* OpenGL.framework */,
+				202F163F1449E8CE00405A9F /* QuartzCore.framework */,
 				202F15F1144976AF00405A9F /* MosaicGenerator */,
 				202F160E144976B000405A9F /* MosaicGeneratorTests */,
 				202F15EA144976AF00405A9F /* Frameworks */,
@@ -118,6 +130,8 @@
 				202F15FE144976B000405A9F /* MGAppDelegate.m */,
 				202F1600144976B000405A9F /* MainMenu.xib */,
 				202F15F2144976AF00405A9F /* Supporting Files */,
+				202F163B1449CFAF00405A9F /* MGEngine.h */,
+				202F163C1449CFAF00405A9F /* MGEngine.m */,
 			);
 			path = MosaicGenerator;
 			sourceTree = "<group>";
@@ -262,6 +276,7 @@
 			files = (
 				202F15F8144976AF00405A9F /* main.m in Sources */,
 				202F15FF144976B000405A9F /* MGAppDelegate.m in Sources */,
+				202F163D1449CFAF00405A9F /* MGEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				202F1616144976B000405A9F /* MosaicGeneratorTests.m in Sources */,
+				202F163E1449CFAF00405A9F /* MGEngine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
