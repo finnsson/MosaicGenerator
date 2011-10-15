@@ -35,19 +35,19 @@
 		202F15EE144976AF00405A9F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		202F15EF144976AF00405A9F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		202F15F0144976AF00405A9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		202F15F3144976AF00405A9F /* MosaicGenerator-Info.plist */ = {isa = PBXFileReference; path = "MosaicGenerator-Info.plist"; sourceTree = "<group>"; };
+		202F15F3144976AF00405A9F /* MosaicGenerator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MosaicGenerator-Info.plist"; sourceTree = "<group>"; };
 		202F15F5144976AF00405A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		202F15F7144976AF00405A9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		202F15F9144976AF00405A9F /* MosaicGenerator-Prefix.pch */ = {isa = PBXFileReference; path = "MosaicGenerator-Prefix.pch"; sourceTree = "<group>"; };
+		202F15F9144976AF00405A9F /* MosaicGenerator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MosaicGenerator-Prefix.pch"; sourceTree = "<group>"; };
 		202F15FB144976AF00405A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		202F15FD144976AF00405A9F /* MGAppDelegate.h */ = {isa = PBXFileReference; path = MGAppDelegate.h; sourceTree = "<group>"; };
+		202F15FD144976AF00405A9F /* MGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGAppDelegate.h; sourceTree = "<group>"; };
 		202F15FE144976B000405A9F /* MGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGAppDelegate.m; sourceTree = "<group>"; };
 		202F1601144976B000405A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		202F1608144976B000405A9F /* MosaicGeneratorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosaicGeneratorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		202F1609144976B000405A9F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		202F1610144976B000405A9F /* MosaicGeneratorTests-Info.plist */ = {isa = PBXFileReference; path = "MosaicGeneratorTests-Info.plist"; sourceTree = "<group>"; };
+		202F1610144976B000405A9F /* MosaicGeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MosaicGeneratorTests-Info.plist"; sourceTree = "<group>"; };
 		202F1612144976B000405A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		202F1614144976B000405A9F /* MosaicGeneratorTests.h */ = {isa = PBXFileReference; path = MosaicGeneratorTests.h; sourceTree = "<group>"; };
+		202F1614144976B000405A9F /* MosaicGeneratorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MosaicGeneratorTests.h; sourceTree = "<group>"; };
 		202F1615144976B000405A9F /* MosaicGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MosaicGeneratorTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
