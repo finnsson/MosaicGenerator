@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		202F15EC144976AF00405A9F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202F15EB144976AF00405A9F /* Cocoa.framework */; };
+		202F15F6144976AF00405A9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 202F15F4144976AF00405A9F /* InfoPlist.strings */; };
+		202F15F8144976AF00405A9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 202F15F7144976AF00405A9F /* main.m */; };
+		202F15FC144976AF00405A9F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 202F15FA144976AF00405A9F /* Credits.rtf */; };
+		202F15FF144976B000405A9F /* MGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 202F15FE144976B000405A9F /* MGAppDelegate.m */; };
+		202F1602144976B000405A9F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 202F1600144976B000405A9F /* MainMenu.xib */; };
+		202F160A144976B000405A9F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202F1609144976B000405A9F /* SenTestingKit.framework */; };
+		202F160B144976B000405A9F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202F15EB144976AF00405A9F /* Cocoa.framework */; };
+		202F1613144976B000405A9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 202F1611144976B000405A9F /* InfoPlist.strings */; };
+		202F1616144976B000405A9F /* MosaicGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 202F1615144976B000405A9F /* MosaicGeneratorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		202F160C144976B000405A9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 202F15DE144976AF00405A9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202F15E6144976AF00405A9F;
+			remoteInfo = MosaicGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		202F15E7144976AF00405A9F /* MosaicGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MosaicGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		202F15EB144976AF00405A9F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		202F15EE144976AF00405A9F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		202F15EF144976AF00405A9F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		202F15F0144976AF00405A9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		202F15F3144976AF00405A9F /* MosaicGenerator-Info.plist */ = {isa = PBXFileReference; path = "MosaicGenerator-Info.plist"; sourceTree = "<group>"; };
+		202F15F5144976AF00405A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		202F15F7144976AF00405A9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		202F15F9144976AF00405A9F /* MosaicGenerator-Prefix.pch */ = {isa = PBXFileReference; path = "MosaicGenerator-Prefix.pch"; sourceTree = "<group>"; };
+		202F15FB144976AF00405A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		202F15FD144976AF00405A9F /* MGAppDelegate.h */ = {isa = PBXFileReference; path = MGAppDelegate.h; sourceTree = "<group>"; };
+		202F15FE144976B000405A9F /* MGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGAppDelegate.m; sourceTree = "<group>"; };
+		202F1601144976B000405A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		202F1608144976B000405A9F /* MosaicGeneratorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MosaicGeneratorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		202F1609144976B000405A9F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		202F1610144976B000405A9F /* MosaicGeneratorTests-Info.plist */ = {isa = PBXFileReference; path = "MosaicGeneratorTests-Info.plist"; sourceTree = "<group>"; };
+		202F1612144976B000405A9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		202F1614144976B000405A9F /* MosaicGeneratorTests.h */ = {isa = PBXFileReference; path = MosaicGeneratorTests.h; sourceTree = "<group>"; };
+		202F1615144976B000405A9F /* MosaicGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MosaicGeneratorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		202F15E4144976AF00405A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202F15EC144976AF00405A9F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202F1604144976B000405A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202F160A144976B000405A9F /* SenTestingKit.framework in Frameworks */,
+				202F160B144976B000405A9F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		202F15DC144976AF00405A9F = {
+			isa = PBXGroup;
+			children = (
+				202F15F1144976AF00405A9F /* MosaicGenerator */,
+				202F160E144976B000405A9F /* MosaicGeneratorTests */,
+				202F15EA144976AF00405A9F /* Frameworks */,
+				202F15E8144976AF00405A9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		202F15E8144976AF00405A9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				202F15E7144976AF00405A9F /* MosaicGenerator.app */,
+				202F1608144976B000405A9F /* MosaicGeneratorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		202F15EA144976AF00405A9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				202F15EB144976AF00405A9F /* Cocoa.framework */,
+				202F1609144976B000405A9F /* SenTestingKit.framework */,
+				202F15ED144976AF00405A9F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		202F15ED144976AF00405A9F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				202F15EE144976AF00405A9F /* AppKit.framework */,
+				202F15EF144976AF00405A9F /* CoreData.framework */,
+				202F15F0144976AF00405A9F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		202F15F1144976AF00405A9F /* MosaicGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				202F15FD144976AF00405A9F /* MGAppDelegate.h */,
+				202F15FE144976B000405A9F /* MGAppDelegate.m */,
+				202F1600144976B000405A9F /* MainMenu.xib */,
+				202F15F2144976AF00405A9F /* Supporting Files */,
+			);
+			path = MosaicGenerator;
+			sourceTree = "<group>";
+		};
+		202F15F2144976AF00405A9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				202F15F3144976AF00405A9F /* MosaicGenerator-Info.plist */,
+				202F15F4144976AF00405A9F /* InfoPlist.strings */,
+				202F15F7144976AF00405A9F /* main.m */,
+				202F15F9144976AF00405A9F /* MosaicGenerator-Prefix.pch */,
+				202F15FA144976AF00405A9F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		202F160E144976B000405A9F /* MosaicGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				202F1614144976B000405A9F /* MosaicGeneratorTests.h */,
+				202F1615144976B000405A9F /* MosaicGeneratorTests.m */,
+				202F160F144976B000405A9F /* Supporting Files */,
+			);
+			path = MosaicGeneratorTests;
+			sourceTree = "<group>";
+		};
+		202F160F144976B000405A9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				202F1610144976B000405A9F /* MosaicGeneratorTests-Info.plist */,
+				202F1611144976B000405A9F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		202F15E6144976AF00405A9F /* MosaicGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202F1619144976B000405A9F /* Build configuration list for PBXNativeTarget "MosaicGenerator" */;
+			buildPhases = (
+				202F15E3144976AF00405A9F /* Sources */,
+				202F15E4144976AF00405A9F /* Frameworks */,
+				202F15E5144976AF00405A9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MosaicGenerator;
+			productName = MosaicGenerator;
+			productReference = 202F15E7144976AF00405A9F /* MosaicGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		202F1607144976B000405A9F /* MosaicGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202F161C144976B000405A9F /* Build configuration list for PBXNativeTarget "MosaicGeneratorTests" */;
+			buildPhases = (
+				202F1603144976B000405A9F /* Sources */,
+				202F1604144976B000405A9F /* Frameworks */,
+				202F1605144976B000405A9F /* Resources */,
+				202F1606144976B000405A9F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				202F160D144976B000405A9F /* PBXTargetDependency */,
+			);
+			name = MosaicGeneratorTests;
+			productName = MosaicGeneratorTests;
+			productReference = 202F1608144976B000405A9F /* MosaicGeneratorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		202F15DE144976AF00405A9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 202F15E1144976AF00405A9F /* Build configuration list for PBXProject "MosaicGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 202F15DC144976AF00405A9F;
+			productRefGroup = 202F15E8144976AF00405A9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				202F15E6144976AF00405A9F /* MosaicGenerator */,
+				202F1607144976B000405A9F /* MosaicGeneratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		202F15E5144976AF00405A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202F15F6144976AF00405A9F /* InfoPlist.strings in Resources */,
+				202F15FC144976AF00405A9F /* Credits.rtf in Resources */,
+				202F1602144976B000405A9F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202F1605144976B000405A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202F1613144976B000405A9F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		202F1606144976B000405A9F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		202F15E3144976AF00405A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202F15F8144976AF00405A9F /* main.m in Sources */,
+				202F15FF144976B000405A9F /* MGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		202F1603144976B000405A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202F1616144976B000405A9F /* MosaicGeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		202F160D144976B000405A9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202F15E6144976AF00405A9F /* MosaicGenerator */;
+			targetProxy = 202F160C144976B000405A9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		202F15F4144976AF00405A9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202F15F5144976AF00405A9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		202F15FA144976AF00405A9F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202F15FB144976AF00405A9F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		202F1600144976B000405A9F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202F1601144976B000405A9F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		202F1611144976B000405A9F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202F1612144976B000405A9F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		202F1617144976B000405A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		202F1618144976B000405A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		202F161A144976B000405A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MosaicGenerator/MosaicGenerator-Prefix.pch";
+				INFOPLIST_FILE = "MosaicGenerator/MosaicGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		202F161B144976B000405A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MosaicGenerator/MosaicGenerator-Prefix.pch";
+				INFOPLIST_FILE = "MosaicGenerator/MosaicGenerator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		202F161D144976B000405A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MosaicGenerator.app/Contents/MacOS/MosaicGenerator";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MosaicGenerator/MosaicGenerator-Prefix.pch";
+				INFOPLIST_FILE = "MosaicGeneratorTests/MosaicGeneratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		202F161E144976B000405A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MosaicGenerator.app/Contents/MacOS/MosaicGenerator";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MosaicGenerator/MosaicGenerator-Prefix.pch";
+				INFOPLIST_FILE = "MosaicGeneratorTests/MosaicGeneratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		202F15E1144976AF00405A9F /* Build configuration list for PBXProject "MosaicGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202F1617144976B000405A9F /* Debug */,
+				202F1618144976B000405A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		202F1619144976B000405A9F /* Build configuration list for PBXNativeTarget "MosaicGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202F161A144976B000405A9F /* Debug */,
+				202F161B144976B000405A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		202F161C144976B000405A9F /* Build configuration list for PBXNativeTarget "MosaicGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202F161D144976B000405A9F /* Debug */,
+				202F161E144976B000405A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 202F15DE144976AF00405A9F /* Project object */;
+}
